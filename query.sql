@@ -1,5 +1,5 @@
 SELECT 
-	p.id AS post_number, 
+    p.id AS post_number, 
     count(pl.post_id) AS likes_per_post,
     p.user_id AS post_by_user
 FROM 
