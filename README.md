@@ -11,5 +11,5 @@
 -Time taken with 2 threads: 71.9311ms  
 -Time taken with 1 threads: 110.1972ms  
 
--At which point we reach the same efficiency level as the serial code.  
+### At which point we reach the same efficiency level as the serial code.  
 -Time taken without threads: 112.3665ms  
