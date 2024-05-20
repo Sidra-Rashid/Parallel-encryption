@@ -1,3 +1,4 @@
+```sql
 SELECT 
 	p.id AS post_number, 
     count(pl.post_id) AS likes_per_post,
@@ -10,3 +11,4 @@ WHERE
 	p.user_id = 1 --insert the user-id of your choice here.
 GROUP BY 
 	p.id
+```
